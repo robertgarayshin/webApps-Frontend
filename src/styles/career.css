@@ -1,0 +1,156 @@
+@import url("https://fonts.cdnfonts.com/css/nats");
+@import url('https://fonts.cdnfonts.com/css/montserrat');
+html {
+    scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+
+#container {
+  width: 1920px;
+  height: 1871px;
+  background-color: white;
+}
+#header {
+  position: absolute;
+  height: 148px;
+  width: 1920px;
+}
+#main {
+  position: absolute;
+  left: 132px;
+  top: 47px;
+  width: 233px;
+  height: 101px;
+  color: #ad304b;
+  font-family: NATS;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+#button {
+  position: absolute;
+  top: 562px;
+  left: 135px;
+  width: 338.028px;
+  height: 85px;
+  flex-shrink: 0;
+  background-color: #ad304b;
+  border-radius: 23px;
+}
+#image {
+  position: absolute;
+  top: 203px;
+  left: 959px;
+}
+#blueRect {
+  position: absolute;
+  top: 921px;
+  width: 1920px;
+  height: 801px;
+  flex-shrink: 0;
+  background: #1a4064;
+}
+.little {
+  width: 414px;
+  height: 85px;
+  flex-shrink: 0;
+  border-radius: 15px;
+}
+.little.name {
+  position: absolute;
+  top: 92px;
+  left: 922px;
+  background: #fff;
+}
+.little.phone {
+  position: absolute;
+  top: 92px;
+  left: 1374px;
+  background: #fff;
+}
+#dir {
+  position: absolute;
+  top: 219px;
+  left: 922px;
+  width: 866px;
+  height: 85px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: #fff;
+}
+#message {
+  position: absolute;
+  top: 346px;
+  left: 922px;
+  width: 866px;
+  height: 236px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: #fff;
+}
+.little.btn1 {
+  position: absolute;
+  top: 624px;
+  left: 922px;
+  border: 1px solid #fff;
+}
+.little.btn2 {
+  position: absolute;
+  top: 624px;
+  left: 1374px;
+  background: rgba(255, 255, 255, 0.4);
+}
+.little.btn1:hover {
+    transition: 0.3s;
+    background-color: #ad304b;
+    border: 0px;
+  }
+.little.btn2:hover {
+  transition: 0.3s;
+  background-color: #ad304b;
+}
+.formText {
+  position: absolute;
+  top: 28px;
+  left: 28px;
+  color: #878787;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 129.9%; /* 28.578px */
+}
+.btnText {
+  position: absolute;
+  top: 25px;
+  left: 28px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 129.9%; /* 36.372px */
+}
+#footer {
+    position: absolute;
+    top: 1722px;
+    width: 1920px;
+    height: 149px;
+}
+#copyright {
+  position: absolute;
+  top: 62px;
+  left: 768px;
+  width: 384px;
+  color: #6c6c6c;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 151.9%; /* 33.418px */
+}

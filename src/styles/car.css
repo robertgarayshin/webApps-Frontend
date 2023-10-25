@@ -1,0 +1,200 @@
+@import url("https://fonts.cdnfonts.com/css/nats");
+@import url("https://fonts.cdnfonts.com/css/montserrat");
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+
+#container {
+  width: 1920px;
+  height: 2487px;
+  background-color: #f9f9f9;
+}
+#header {
+  position: absolute;
+  height: 185px;
+  width: 1920px;
+  background-color: #FFF;
+}
+#main {
+  position: absolute;
+  left: 132px;
+  top: 47px;
+  width: 233px;
+  height: 101px;
+  color: #ad304b;
+  font-family: NATS;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+#carImage {
+  position: absolute;
+  top: 261px;
+  left: 132px;
+}
+#periodForm {
+  position: absolute;
+  top: 261px;
+  left: 1277px;
+  width: 511px;
+  height: 665px;
+  flex-shrink: 0;
+  background-color: white;
+  border-radius: 25px;
+}
+.formText {
+  color: #b9b7b7;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.formText.begin {
+  position: absolute;
+  top: 109px;
+  left: 60px;
+}
+.formText.end {
+  position: absolute;
+  top: 240px;
+  left: 64px;
+}
+.fieldText {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.field {
+  width: 429px;
+  height: 85px;
+  flex-shrink: 0;
+  background-color: #f9f7f7;
+  border-radius: 20px;
+}
+.field.begin {
+  position: absolute;
+  top: 140px;
+  left: 41px;
+}
+.fieldLogo {
+  position: absolute;
+  top: 30px;
+  left: 23px;
+}
+.fieldText.date {
+  position: absolute;
+  top: 29px;
+  left: 61px;
+}
+.fieldText.time {
+  position: absolute;
+  top: 29px;
+  left: 244px;
+}
+.field.end {
+  position: absolute;
+  top: 271px;
+  left: 41px;
+}
+#price {
+  position: absolute;
+  top: 566px;
+  left: 41px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 135.4%; /* 54.16px */
+}
+#model {
+  width: 1091px;
+  height: 288px;
+  flex-shrink: 0;
+  background-color: #fff;
+  border-radius: 30px;
+  position: absolute;
+  top: 986px;
+  left: 132px;
+}
+#rating {
+  position: absolute;
+  top: 110px;
+  left: 44px;
+  color: #ad304b;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#stars {
+  position: absolute;
+  top: 115px;
+  left: 65px;
+}
+#reviews {
+  position: absolute;
+  top: 110px;
+  left: 200px;
+  color: #b9b7b7;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+#owner {
+  position: absolute;
+  top: 205px;
+  left: 43px;
+}
+#description {
+  position: absolute;
+  top: 1334px;
+  left: 132px;
+  background-color: white;
+  border-radius: 30px;
+  width: 1091px;
+  height: 655px;
+  flex-shrink: 0;
+}
+#footer {
+    position: absolute;
+    top: 2065px;
+    width: 1920px;
+    height: 422px;
+    background-color: #FFF;
+}
+.footerText {
+    color: #AD304B;
+
+font-family: Montserrat;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.88px;
+}
+#copyright {
+    position: absolute;
+    top: 336px;
+    left: 768px;
+    width: 384px;
+    color: #6c6c6c;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 151.9%; /* 33.418px */
+  }
