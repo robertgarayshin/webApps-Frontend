@@ -256,14 +256,25 @@ a {
 #footer {
   position: absolute;
   top: 1964px;
+  width: 1920px;
+  height: 422px;
+}
+.footerText {
+  color: #AD304B;
+
+font-family: Montserrat;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.88px;
 }
 #copyright {
-    position: absolute;
-    top: 0px;
-    left: 768px;
+  position: absolute;
+  top: 336px;
+  left: 768px;
   width: 384px;
   color: #6c6c6c;
-
   text-align: center;
   font-family: Montserrat;
   font-size: 22px;
